@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Josefin+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.hero-color {
+    background-image: linear-gradient(to right, #4f1fa7, #119168);
+}
+
+p {
+    line-height: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    line-height: 43px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+.box{
+    height: 300px;
+    width: 250px;
+
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    color: white;
+}
